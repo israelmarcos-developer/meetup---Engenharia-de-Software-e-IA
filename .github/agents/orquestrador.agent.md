@@ -414,15 +414,16 @@ git push origin feature/dem-xxx
 
 | Fase | Agente | Ação |
 |------|--------|------|
-| 1. Elicitação | @Analista | Criar demanda e chamar Engenheiro |
-| 2. Validação | @Engenheiro | Aprovar tecnicamente e chamar Orquestrador |
-| 3. Testes | @Tester | Criar testes (Red) |
-| 4. Implementação Backend | @Implementador TDD | Código Backend (Green) |
-| 5. Implementação Web | @Implementador TDD | Código Web (Green) |
-| 6. Implementação Mobile | @Implementador Mobile | Código Mobile (Green) |
-| 7. Revisão | @Revisor | Verificar padrões e qualidade |
-| 8. Auditoria | @Auditor | Aprovar para commit |
-| 9. Finalização | @Orquestrador | Relatório e comandos finais |
+| 1. Elicitação | @Agente de Requisitos | Elicitar requisitos e gerar demanda `.md` |
+| 2. Validação | @Engenheiro de Software | Revisar tecnicamente e refinar a demanda |
+| 3. Orquestração | @Orquestrador de Features | Coordenar execução e chamar agentes especializados |
+| 4. Testes | @Agente Tester | Criar testes (Red) nas stacks impactadas |
+| 5. Implementação Backend | @Agente Implementador TDD | Código Backend (Green) |
+| 6. Implementação Web | @Agente Implementador TDD | Código Web (Green) |
+| 7. Implementação Mobile | @Implementador Mobile | Código Mobile (Green) |
+| 8. Revisão | @Agente Revisor | Verificar padrões e qualidade |
+| 9. Auditoria | @Agente Auditor Pré-Commit | Checklist final e aprovação para commit |
+| 10. Finalização | @Orquestrador de Features | Relatório consolidado e comandos git |
 
 ---
 
